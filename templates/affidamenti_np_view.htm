@@ -1,0 +1,522 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+						<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		{BEGIN styleCSSFiles}
+<link REL="stylesheet" href="{$stylepath}" type="text/css">
+{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}" data-page="affidamenti_np_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="view_header" data-itemid="view_header" {$item_view_header}="" data-pageid="{$pageid}" >{$pagetitlelabel affidamenti_np view}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}" data-page="affidamenti_np_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" data-page="affidamenti_np_view" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN id_affidamento_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_affidamento}  r-vertical-field" 
+	data-signal-error-for="id_affidamento{$id}" {$required_attr_id_affidamento}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field}="" data-pageid="{$pageid}" data-field="id_affidamento" data-fieldname="id_affidamento" >
+
+	<label class="r-edit-label control-label {$id_affidamento_label_class}" for="{$labelfor_id_affidamento}">
+		{BEGIN id_affidamento_label}
+			{$id_affidamento_forward_control}
+			{$label affidamenti_np id_affidamento }			{END id_affidamento_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$id_affidamento_value}	</div>
+	</div>
+
+
+{END id_affidamento_fieldblock}
+											
+{BEGIN data_richiesta_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_richiesta}  r-vertical-field" 
+	data-signal-error-for="data_richiesta{$id}" {$required_attr_data_richiesta}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1}="" data-pageid="{$pageid}" data-field="data_richiesta" data-fieldname="data_richiesta" >
+
+	<label class="r-edit-label control-label {$data_richiesta_label_class}" for="{$labelfor_data_richiesta}">
+		{BEGIN data_richiesta_label}
+			{$data_richiesta_forward_control}
+			{$label affidamenti_np data_richiesta }			{END data_richiesta_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_richiesta_value}	</div>
+	</div>
+
+
+{END data_richiesta_fieldblock}
+											
+{BEGIN utente_richiesta_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_utente_richiesta}  r-vertical-field" 
+	data-signal-error-for="utente_richiesta{$id}" {$required_attr_utente_richiesta}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2}="" data-pageid="{$pageid}" data-field="utente_richiesta" data-fieldname="utente_richiesta" >
+
+	<label class="r-edit-label control-label {$utente_richiesta_label_class}" for="{$labelfor_utente_richiesta}">
+		{BEGIN utente_richiesta_label}
+			{$utente_richiesta_forward_control}
+			{$label affidamenti_np utente_richiesta }			{END utente_richiesta_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$utente_richiesta_value}	</div>
+	</div>
+
+
+{END utente_richiesta_fieldblock}
+											
+{BEGIN cognome_e_nome_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cognome_e_nome}  r-vertical-field" 
+	data-signal-error-for="cognome_e_nome{$id}" {$required_attr_cognome_e_nome}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3}="" data-pageid="{$pageid}" data-field="cognome_e_nome" data-fieldname="cognome_e_nome" >
+
+	<label class="r-edit-label control-label {$cognome_e_nome_label_class}" for="{$labelfor_cognome_e_nome}">
+		{BEGIN cognome_e_nome_label}
+			{$cognome_e_nome_forward_control}
+			{$label affidamenti_np cognome_e_nome }			{END cognome_e_nome_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cognome_e_nome_value}	</div>
+	</div>
+
+
+{END cognome_e_nome_fieldblock}
+											
+{BEGIN data_di_nascita_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_di_nascita}  r-vertical-field" 
+	data-signal-error-for="data_di_nascita{$id}" {$required_attr_data_di_nascita}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4}="" data-pageid="{$pageid}" data-field="data_di_nascita" data-fieldname="data_di_nascita" >
+
+	<label class="r-edit-label control-label {$data_di_nascita_label_class}" for="{$labelfor_data_di_nascita}">
+		{BEGIN data_di_nascita_label}
+			{$data_di_nascita_forward_control}
+			{$label affidamenti_np data_di_nascita }			{END data_di_nascita_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_di_nascita_value}	</div>
+	</div>
+
+
+{END data_di_nascita_fieldblock}
+											
+{BEGIN sesso_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sesso}  r-vertical-field" 
+	data-signal-error-for="sesso{$id}" {$required_attr_sesso}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5}="" data-pageid="{$pageid}" data-field="sesso" data-fieldname="sesso" >
+
+	<label class="r-edit-label control-label {$sesso_label_class}" for="{$labelfor_sesso}">
+		{BEGIN sesso_label}
+			{$sesso_forward_control}
+			{$label affidamenti_np sesso }			{END sesso_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$sesso_value}	</div>
+	</div>
+
+
+{END sesso_fieldblock}
+											
+{BEGIN eta_evolutiva_o_adulta_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_eta_evolutiva_o_adulta}  r-vertical-field" 
+	data-signal-error-for="eta_evolutiva_o_adulta{$id}" {$required_attr_eta_evolutiva_o_adulta}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6}="" data-pageid="{$pageid}" data-field="eta_evolutiva_o_adulta" data-fieldname="eta_evolutiva_o_adulta" >
+
+	<label class="r-edit-label control-label {$eta_evolutiva_o_adulta_label_class}" for="{$labelfor_eta_evolutiva_o_adulta}">
+		{BEGIN eta_evolutiva_o_adulta_label}
+			{$eta_evolutiva_o_adulta_forward_control}
+			{$label affidamenti_np eta_evolutiva_o_adulta }			{END eta_evolutiva_o_adulta_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$eta_evolutiva_o_adulta_value}	</div>
+	</div>
+
+
+{END eta_evolutiva_o_adulta_fieldblock}
+											
+{BEGIN settore_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_settore}  r-vertical-field" 
+	data-signal-error-for="settore{$id}" {$required_attr_settore}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7}="" data-pageid="{$pageid}" data-field="settore" data-fieldname="settore" >
+
+	<label class="r-edit-label control-label {$settore_label_class}" for="{$labelfor_settore}">
+		{BEGIN settore_label}
+			{$settore_forward_control}
+			{$label affidamenti_np settore }			{END settore_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$settore_value}	</div>
+	</div>
+
+
+{END settore_fieldblock}
+											
+{BEGIN distretto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_distretto}  r-vertical-field" 
+	data-signal-error-for="distretto{$id}" {$required_attr_distretto}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8}="" data-pageid="{$pageid}" data-field="distretto" data-fieldname="distretto" >
+
+	<label class="r-edit-label control-label {$distretto_label_class}" for="{$labelfor_distretto}">
+		{BEGIN distretto_label}
+			{$distretto_forward_control}
+			{$label affidamenti_np distretto }			{END distretto_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$distretto_value}	</div>
+	</div>
+
+
+{END distretto_fieldblock}
+											
+{BEGIN recapito_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_recapito}  r-vertical-field" 
+	data-signal-error-for="recapito{$id}" {$required_attr_recapito}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9}="" data-pageid="{$pageid}" data-field="recapito" data-fieldname="recapito" >
+
+	<label class="r-edit-label control-label {$recapito_label_class}" for="{$labelfor_recapito}">
+		{BEGIN recapito_label}
+			{$recapito_forward_control}
+			{$label affidamenti_np recapito }			{END recapito_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$recapito_value}	</div>
+	</div>
+
+
+{END recapito_fieldblock}
+											
+{BEGIN idprodotto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_idprodotto}  r-vertical-field" 
+	data-signal-error-for="idprodotto{$id}" {$required_attr_idprodotto}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10}="" data-pageid="{$pageid}" data-field="idprodotto" data-fieldname="idprodotto" >
+
+	<label class="r-edit-label control-label {$idprodotto_label_class}" for="{$labelfor_idprodotto}">
+		{BEGIN idprodotto_label}
+			{$idprodotto_forward_control}
+			{$label affidamenti_np idprodotto }			{END idprodotto_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$idprodotto_value}	</div>
+	</div>
+
+
+{END idprodotto_fieldblock}
+											
+{BEGIN tipo_valutazione_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tipo_valutazione}  r-vertical-field" 
+	data-signal-error-for="tipo_valutazione{$id}" {$required_attr_tipo_valutazione}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field11" {$item_integrated_edit_field11}="" data-pageid="{$pageid}" data-field="tipo_valutazione" data-fieldname="tipo_valutazione" >
+
+	<label class="r-edit-label control-label {$tipo_valutazione_label_class}" for="{$labelfor_tipo_valutazione}">
+		{BEGIN tipo_valutazione_label}
+			{$tipo_valutazione_forward_control}
+			{$label affidamenti_np tipo_valutazione }			{END tipo_valutazione_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$tipo_valutazione_value}	</div>
+	</div>
+
+
+{END tipo_valutazione_fieldblock}
+											
+{BEGIN terapista_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_terapista}  r-vertical-field" 
+	data-signal-error-for="terapista{$id}" {$required_attr_terapista}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field12" {$item_integrated_edit_field12}="" data-pageid="{$pageid}" data-field="terapista" data-fieldname="terapista" >
+
+	<label class="r-edit-label control-label {$terapista_label_class}" for="{$labelfor_terapista}">
+		{BEGIN terapista_label}
+			{$terapista_forward_control}
+			{$label affidamenti_np terapista }			{END terapista_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$terapista_value}	</div>
+	</div>
+
+
+{END terapista_fieldblock}
+											
+{BEGIN mail_terapista_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_mail_terapista}  r-vertical-field" 
+	data-signal-error-for="mail_terapista{$id}" {$required_attr_mail_terapista}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field13" {$item_integrated_edit_field13}="" data-pageid="{$pageid}" data-field="mail_terapista" data-fieldname="mail_terapista" >
+
+	<label class="r-edit-label control-label {$mail_terapista_label_class}" for="{$labelfor_mail_terapista}">
+		{BEGIN mail_terapista_label}
+			{$mail_terapista_forward_control}
+			{$label affidamenti_np mail_terapista }			{END mail_terapista_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$mail_terapista_value}	</div>
+	</div>
+
+
+{END mail_terapista_fieldblock}
+											
+{BEGIN note_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_note}  r-vertical-field" 
+	data-signal-error-for="note{$id}" {$required_attr_note}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field14" {$item_integrated_edit_field14}="" data-pageid="{$pageid}" data-field="note" data-fieldname="note" >
+
+	<label class="r-edit-label control-label {$note_label_class}" for="{$labelfor_note}">
+		{BEGIN note_label}
+			{$note_forward_control}
+			{$label affidamenti_np note }			{END note_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$note_value}	</div>
+	</div>
+
+
+{END note_fieldblock}
+											
+{BEGIN mail_inviata_il_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_mail_inviata_il}  r-vertical-field" 
+	data-signal-error-for="mail_inviata_il{$id}" {$required_attr_mail_inviata_il}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15}="" data-pageid="{$pageid}" data-field="mail_inviata_il" data-fieldname="mail_inviata_il" >
+
+	<label class="r-edit-label control-label {$mail_inviata_il_label_class}" for="{$labelfor_mail_inviata_il}">
+		{BEGIN mail_inviata_il_label}
+			{$mail_inviata_il_forward_control}
+			{$label affidamenti_np mail_inviata_il }			{END mail_inviata_il_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$mail_inviata_il_value}	</div>
+	</div>
+
+
+{END mail_inviata_il_fieldblock}
+											
+{BEGIN id_utente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_utente}  r-vertical-field" 
+	data-signal-error-for="id_utente{$id}" {$required_attr_id_utente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field16" {$item_integrated_edit_field16}="" data-pageid="{$pageid}" data-field="id_utente" data-fieldname="id_utente" >
+
+	<label class="r-edit-label control-label {$id_utente_label_class}" for="{$labelfor_id_utente}">
+		{BEGIN id_utente_label}
+			{$id_utente_forward_control}
+			{$label affidamenti_np id_utente }			{END id_utente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$id_utente_value}	</div>
+	</div>
+
+
+{END id_utente_fieldblock}
+											
+{BEGIN data_abbinamento_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_abbinamento}  r-vertical-field" 
+	data-signal-error-for="data_abbinamento{$id}" {$required_attr_data_abbinamento}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field17" {$item_integrated_edit_field17}="" data-pageid="{$pageid}" data-field="data_abbinamento" data-fieldname="data_abbinamento" >
+
+	<label class="r-edit-label control-label {$data_abbinamento_label_class}" for="{$labelfor_data_abbinamento}">
+		{BEGIN data_abbinamento_label}
+			{$data_abbinamento_forward_control}
+			{$label affidamenti_np data_abbinamento }			{END data_abbinamento_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_abbinamento_value}	</div>
+	</div>
+
+
+{END data_abbinamento_fieldblock}
+											
+{BEGIN ultima_modifica_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ultima_modifica}  r-vertical-field" 
+	data-signal-error-for="ultima_modifica{$id}" {$required_attr_ultima_modifica}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field18" {$item_integrated_edit_field18}="" data-pageid="{$pageid}" data-field="ultima_modifica" data-fieldname="ultima_modifica" >
+
+	<label class="r-edit-label control-label {$ultima_modifica_label_class}" for="{$labelfor_ultima_modifica}">
+		{BEGIN ultima_modifica_label}
+			{$ultima_modifica_forward_control}
+			{$label affidamenti_np ultima_modifica }			{END ultima_modifica_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$ultima_modifica_value}	</div>
+	</div>
+
+
+{END ultima_modifica_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}" data-page="affidamenti_np_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN back_button}
+<span data-itemtype="view_back_list" data-itemid="view_back_list" {$item_view_back_list}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							{mlang_message BACK_TO_LIST}			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="view_close" data-itemid="view_close" {$item_view_close}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" href="#" {$closebutton_attrs} >
+							{mlang_message CLOSE_WINDOW}			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger}="" data-pageid="{$pageid}" data-small="" data-button-item>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,17 @@
+# Credenziali / connessioni DB
+connections/databases.php
+*.ini
+.env
+# Backup, log, dati
+*.zip
+*.log
+*.sql
+*.gz
+files/
+templates_c/
+output/
+# File generati/pesanti non utili all'analisi
+*.ttf
+*.woff
+*.woff2
+usercode/db.php

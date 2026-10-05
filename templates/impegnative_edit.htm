@@ -1,0 +1,1194 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+						<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		{BEGIN styleCSSFiles}
+<link REL="stylesheet" href="{$stylepath}" type="text/css">
+{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}" data-page="impegnative_edit"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="edit_header" data-itemid="edit_header" {$item_edit_header}="" data-pageid="{$pageid}" >{$pagetitlelabel impegnative edit}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}" data-page="impegnative_edit"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<div data-itemtype="edit_message" data-itemid="edit_message" {$item_edit_message}="" data-pageid="{$pageid}" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN message_back_button}
+			<button class="btn btn-sm btn-default" {$backbutton_attrs}>{mlang_message BACK_TO_LIST}</button>
+	{END message_back_button}
+{BEGIN message_view_page_button}
+		<a class="btn btn-sm btn-default" href="impegnative_view.php?{$editlink}" {$view_page_button_attrs}>{mlang_message VIEW}</a>
+{END message_view_page_button}
+</div>
+</div>
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" data-page="impegnative_edit" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN cognome_e_nome_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cognome_e_nome}  r-vertical-field" 
+	data-signal-error-for="cognome_e_nome{$id}" {$required_attr_cognome_e_nome}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field}="" data-pageid="{$pageid}" data-field="cognome_e_nome" data-fieldname="cognome_e_nome" >
+
+	<label class="r-edit-label control-label {$cognome_e_nome_label_class}" for="{$labelfor_cognome_e_nome}">
+		{BEGIN cognome_e_nome_label}
+			{$cognome_e_nome_forward_control}
+			{$label impegnative cognome_e_nome }			{END cognome_e_nome_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cognome_e_nome_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="cognome_e_nome" {$tooltipAttr impegnative cognome_e_nome } >
+		<div class="text-muted" >
+		{$tooltip impegnative cognome_e_nome }		</div>
+	</div>
+	</div>
+
+
+{END cognome_e_nome_fieldblock}
+											
+{BEGIN id_utente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_utente}  r-vertical-field" 
+	data-signal-error-for="id_utente{$id}" {$required_attr_id_utente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1}="" data-pageid="{$pageid}" data-field="id_utente" data-fieldname="id_utente" >
+
+	<label class="r-edit-label control-label {$id_utente_label_class}" for="{$labelfor_id_utente}">
+		{BEGIN id_utente_label}
+			{$id_utente_forward_control}
+			{$label impegnative id_utente }			{END id_utente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$id_utente_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="id_utente" {$tooltipAttr impegnative id_utente } >
+		<div class="text-muted" >
+		{$tooltip impegnative id_utente }		</div>
+	</div>
+	</div>
+
+
+{END id_utente_fieldblock}
+											
+{BEGIN data_di_nascita_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_di_nascita}  r-vertical-field" 
+	data-signal-error-for="data_di_nascita{$id}" {$required_attr_data_di_nascita}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2}="" data-pageid="{$pageid}" data-field="data_di_nascita" data-fieldname="data_di_nascita" >
+
+	<label class="r-edit-label control-label {$data_di_nascita_label_class}" for="{$labelfor_data_di_nascita}">
+		{BEGIN data_di_nascita_label}
+			{$data_di_nascita_forward_control}
+			{$label impegnative data_di_nascita }			{END data_di_nascita_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_di_nascita_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="data_di_nascita" {$tooltipAttr impegnative data_di_nascita } >
+		<div class="text-muted" >
+		{$tooltip impegnative data_di_nascita }		</div>
+	</div>
+	</div>
+
+
+{END data_di_nascita_fieldblock}
+											
+{BEGIN sesso_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sesso}  r-vertical-field" 
+	data-signal-error-for="sesso{$id}" {$required_attr_sesso}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3}="" data-pageid="{$pageid}" data-field="sesso" data-fieldname="sesso" >
+
+	<label class="r-edit-label control-label {$sesso_label_class}" for="{$labelfor_sesso}">
+		{BEGIN sesso_label}
+			{$sesso_forward_control}
+			{$label impegnative sesso }			{END sesso_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$sesso_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="sesso" {$tooltipAttr impegnative sesso } >
+		<div class="text-muted" >
+		{$tooltip impegnative sesso }		</div>
+	</div>
+	</div>
+
+
+{END sesso_fieldblock}
+											
+{BEGIN et__evolutiva_o_adulto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_et__evolutiva_o_adulto}  r-vertical-field" 
+	data-signal-error-for="et__evolutiva_o_adulto{$id}" {$required_attr_et__evolutiva_o_adulto}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4}="" data-pageid="{$pageid}" data-field="et__evolutiva_o_adulto" data-fieldname="et__evolutiva_o_adulto" >
+
+	<label class="r-edit-label control-label {$et__evolutiva_o_adulto_label_class}" for="{$labelfor_et__evolutiva_o_adulto}">
+		{BEGIN et__evolutiva_o_adulto_label}
+			{$et__evolutiva_o_adulto_forward_control}
+			{$label impegnative et__evolutiva_o_adulto }			{END et__evolutiva_o_adulto_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$et__evolutiva_o_adulto_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="et__evolutiva_o_adulto" {$tooltipAttr impegnative et__evolutiva_o_adulto } >
+		<div class="text-muted" >
+		{$tooltip impegnative et__evolutiva_o_adulto }		</div>
+	</div>
+	</div>
+
+
+{END et__evolutiva_o_adulto_fieldblock}
+											
+{BEGIN settore_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_settore}  r-vertical-field" 
+	data-signal-error-for="settore{$id}" {$required_attr_settore}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5}="" data-pageid="{$pageid}" data-field="settore" data-fieldname="settore" >
+
+	<label class="r-edit-label control-label {$settore_label_class}" for="{$labelfor_settore}">
+		{BEGIN settore_label}
+			{$settore_forward_control}
+			{$label impegnative settore }			{END settore_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$settore_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="settore" {$tooltipAttr impegnative settore } >
+		<div class="text-muted" >
+		{$tooltip impegnative settore }		</div>
+	</div>
+	</div>
+
+
+{END settore_fieldblock}
+											
+{BEGIN privato_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_privato}  r-vertical-field" 
+	data-signal-error-for="privato{$id}" {$required_attr_privato}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6}="" data-pageid="{$pageid}" data-field="privato" data-fieldname="privato" >
+
+	<label class="r-edit-label control-label {$privato_label_class}" for="{$labelfor_privato}">
+		{BEGIN privato_label}
+			{$privato_forward_control}
+			{$label impegnative privato }			{END privato_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$privato_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="privato" {$tooltipAttr impegnative privato } >
+		<div class="text-muted" >
+		{$tooltip impegnative privato }		</div>
+	</div>
+	</div>
+
+
+{END privato_fieldblock}
+											
+{BEGIN codice_fim_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_codice_fim}  r-vertical-field" 
+	data-signal-error-for="codice_fim{$id}" {$required_attr_codice_fim}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7}="" data-pageid="{$pageid}" data-field="codice_fim" data-fieldname="codice_fim" >
+
+	<label class="r-edit-label control-label {$codice_fim_label_class}" for="{$labelfor_codice_fim}">
+		{BEGIN codice_fim_label}
+			{$codice_fim_forward_control}
+			{$label impegnative codice_fim }			{END codice_fim_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$codice_fim_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="codice_fim" {$tooltipAttr impegnative codice_fim } >
+		<div class="text-muted" >
+		{$tooltip impegnative codice_fim }		</div>
+	</div>
+	</div>
+
+
+{END codice_fim_fieldblock}
+											
+{BEGIN codice_patologia_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_codice_patologia}  r-vertical-field" 
+	data-signal-error-for="codice_patologia{$id}" {$required_attr_codice_patologia}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8}="" data-pageid="{$pageid}" data-field="codice_patologia" data-fieldname="codice_patologia" >
+
+	<label class="r-edit-label control-label {$codice_patologia_label_class}" for="{$labelfor_codice_patologia}">
+		{BEGIN codice_patologia_label}
+			{$codice_patologia_forward_control}
+			{$label impegnative codice_patologia }			{END codice_patologia_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$codice_patologia_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="codice_patologia" {$tooltipAttr impegnative codice_patologia } >
+		<div class="text-muted" >
+		{$tooltip impegnative codice_patologia }		</div>
+	</div>
+	</div>
+
+
+{END codice_patologia_fieldblock}
+											
+{BEGIN data_imp_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_imp}  r-vertical-field" 
+	data-signal-error-for="data_imp{$id}" {$required_attr_data_imp}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9}="" data-pageid="{$pageid}" data-field="data_imp" data-fieldname="data_imp" >
+
+	<label class="r-edit-label control-label {$data_imp_label_class}" for="{$labelfor_data_imp}">
+		{BEGIN data_imp_label}
+			{$data_imp_forward_control}
+			{$label impegnative data_imp }			{END data_imp_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_imp_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="data_imp" {$tooltipAttr impegnative data_imp } >
+		<div class="text-muted" >
+		{$tooltip impegnative data_imp }		</div>
+	</div>
+	</div>
+
+
+{END data_imp_fieldblock}
+											
+{BEGIN medico_inviante_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_medico_inviante}  r-vertical-field" 
+	data-signal-error-for="medico_inviante{$id}" {$required_attr_medico_inviante}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10}="" data-pageid="{$pageid}" data-field="medico_inviante" data-fieldname="medico_inviante" >
+
+	<label class="r-edit-label control-label {$medico_inviante_label_class}" for="{$labelfor_medico_inviante}">
+		{BEGIN medico_inviante_label}
+			{$medico_inviante_forward_control}
+			{$label impegnative medico_inviante }			{END medico_inviante_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$medico_inviante_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="medico_inviante" {$tooltipAttr impegnative medico_inviante } >
+		<div class="text-muted" >
+		{$tooltip impegnative medico_inviante }		</div>
+	</div>
+	</div>
+
+
+{END medico_inviante_fieldblock}
+											
+{BEGIN sigla_cliente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sigla_cliente}  r-vertical-field" 
+	data-signal-error-for="sigla_cliente{$id}" {$required_attr_sigla_cliente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field11" {$item_integrated_edit_field11}="" data-pageid="{$pageid}" data-field="sigla_cliente" data-fieldname="sigla_cliente" >
+
+	<label class="r-edit-label control-label {$sigla_cliente_label_class}" for="{$labelfor_sigla_cliente}">
+		{BEGIN sigla_cliente_label}
+			{$sigla_cliente_forward_control}
+			{$label impegnative sigla_cliente }			{END sigla_cliente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$sigla_cliente_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="sigla_cliente" {$tooltipAttr impegnative sigla_cliente } >
+		<div class="text-muted" >
+		{$tooltip impegnative sigla_cliente }		</div>
+	</div>
+	</div>
+
+
+{END sigla_cliente_fieldblock}
+											
+{BEGIN protocollo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_protocollo}  r-vertical-field" 
+	data-signal-error-for="protocollo{$id}" {$required_attr_protocollo}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field12" {$item_integrated_edit_field12}="" data-pageid="{$pageid}" data-field="protocollo" data-fieldname="protocollo" >
+
+	<label class="r-edit-label control-label {$protocollo_label_class}" for="{$labelfor_protocollo}">
+		{BEGIN protocollo_label}
+			{$protocollo_forward_control}
+			{$label impegnative protocollo }			{END protocollo_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$protocollo_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="protocollo" {$tooltipAttr impegnative protocollo } >
+		<div class="text-muted" >
+		{$tooltip impegnative protocollo }		</div>
+	</div>
+	</div>
+
+
+{END protocollo_fieldblock}
+											
+{BEGIN anno_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_anno}  r-vertical-field" 
+	data-signal-error-for="anno{$id}" {$required_attr_anno}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field13" {$item_integrated_edit_field13}="" data-pageid="{$pageid}" data-field="anno" data-fieldname="anno" >
+
+	<label class="r-edit-label control-label {$anno_label_class}" for="{$labelfor_anno}">
+		{BEGIN anno_label}
+			{$anno_forward_control}
+			{$label impegnative anno }			{END anno_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$anno_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="anno" {$tooltipAttr impegnative anno } >
+		<div class="text-muted" >
+		{$tooltip impegnative anno }		</div>
+	</div>
+	</div>
+
+
+{END anno_fieldblock}
+											
+{BEGIN idprodotto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_idprodotto}  r-vertical-field" 
+	data-signal-error-for="idprodotto{$id}" {$required_attr_idprodotto}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15}="" data-pageid="{$pageid}" data-field="idprodotto" data-fieldname="idprodotto" >
+
+	<label class="r-edit-label control-label {$idprodotto_label_class}" for="{$labelfor_idprodotto}">
+		{BEGIN idprodotto_label}
+			{$idprodotto_forward_control}
+			{$label impegnative idprodotto }			{END idprodotto_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$idprodotto_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="idprodotto" {$tooltipAttr impegnative idprodotto } >
+		<div class="text-muted" >
+		{$tooltip impegnative idprodotto }		</div>
+	</div>
+	</div>
+
+
+{END idprodotto_fieldblock}
+											
+{BEGIN quantita_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_quantita}  r-vertical-field" 
+	data-signal-error-for="quantita{$id}" {$required_attr_quantita}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field16" {$item_integrated_edit_field16}="" data-pageid="{$pageid}" data-field="quantita" data-fieldname="quantita" >
+
+	<label class="r-edit-label control-label {$quantita_label_class}" for="{$labelfor_quantita}">
+		{BEGIN quantita_label}
+			{$quantita_forward_control}
+			{$label impegnative quantita }			{END quantita_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$quantita_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="quantita" {$tooltipAttr impegnative quantita } >
+		<div class="text-muted" >
+		{$tooltip impegnative quantita }		</div>
+	</div>
+	</div>
+
+
+{END quantita_fieldblock}
+											
+{BEGIN scadenza_impegnativa_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_scadenza_impegnativa}  r-vertical-field" 
+	data-signal-error-for="scadenza_impegnativa{$id}" {$required_attr_scadenza_impegnativa}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field17" {$item_integrated_edit_field17}="" data-pageid="{$pageid}" data-field="scadenza_impegnativa" data-fieldname="scadenza_impegnativa" >
+
+	<label class="r-edit-label control-label {$scadenza_impegnativa_label_class}" for="{$labelfor_scadenza_impegnativa}">
+		{BEGIN scadenza_impegnativa_label}
+			{$scadenza_impegnativa_forward_control}
+			{$label impegnative scadenza_impegnativa }			{END scadenza_impegnativa_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$scadenza_impegnativa_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="scadenza_impegnativa" {$tooltipAttr impegnative scadenza_impegnativa } >
+		<div class="text-muted" >
+		{$tooltip impegnative scadenza_impegnativa }		</div>
+	</div>
+	</div>
+
+
+{END scadenza_impegnativa_fieldblock}
+											
+{BEGIN attesa_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_attesa}  r-vertical-field" 
+	data-signal-error-for="attesa{$id}" {$required_attr_attesa}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field18" {$item_integrated_edit_field18}="" data-pageid="{$pageid}" data-field="attesa" data-fieldname="attesa" >
+
+	<label class="r-edit-label control-label {$attesa_label_class}" for="{$labelfor_attesa}">
+		{BEGIN attesa_label}
+			{$attesa_forward_control}
+			{$label impegnative attesa }			{END attesa_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$attesa_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="attesa" {$tooltipAttr impegnative attesa } >
+		<div class="text-muted" >
+		{$tooltip impegnative attesa }		</div>
+	</div>
+	</div>
+
+
+{END attesa_fieldblock}
+											
+{BEGIN trattamento_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_trattamento}  r-vertical-field" 
+	data-signal-error-for="trattamento{$id}" {$required_attr_trattamento}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field19" {$item_integrated_edit_field19}="" data-pageid="{$pageid}" data-field="trattamento" data-fieldname="trattamento" >
+
+	<label class="r-edit-label control-label {$trattamento_label_class}" for="{$labelfor_trattamento}">
+		{BEGIN trattamento_label}
+			{$trattamento_forward_control}
+			{$label impegnative trattamento }			{END trattamento_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$trattamento_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="trattamento" {$tooltipAttr impegnative trattamento } >
+		<div class="text-muted" >
+		{$tooltip impegnative trattamento }		</div>
+	</div>
+	</div>
+
+
+{END trattamento_fieldblock}
+											
+{BEGIN dimesso_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_dimesso}  r-vertical-field" 
+	data-signal-error-for="dimesso{$id}" {$required_attr_dimesso}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field20" {$item_integrated_edit_field20}="" data-pageid="{$pageid}" data-field="dimesso" data-fieldname="dimesso" >
+
+	<label class="r-edit-label control-label {$dimesso_label_class}" for="{$labelfor_dimesso}">
+		{BEGIN dimesso_label}
+			{$dimesso_forward_control}
+			{$label impegnative dimesso }			{END dimesso_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$dimesso_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="dimesso" {$tooltipAttr impegnative dimesso } >
+		<div class="text-muted" >
+		{$tooltip impegnative dimesso }		</div>
+	</div>
+	</div>
+
+
+{END dimesso_fieldblock}
+											
+{BEGIN data_inizio_trattamento_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_inizio_trattamento}  r-vertical-field" 
+	data-signal-error-for="data_inizio_trattamento{$id}" {$required_attr_data_inizio_trattamento}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field21" {$item_integrated_edit_field21}="" data-pageid="{$pageid}" data-field="data_inizio_trattamento" data-fieldname="data_inizio_trattamento" >
+
+	<label class="r-edit-label control-label {$data_inizio_trattamento_label_class}" for="{$labelfor_data_inizio_trattamento}">
+		{BEGIN data_inizio_trattamento_label}
+			{$data_inizio_trattamento_forward_control}
+			{$label impegnative data_inizio_trattamento }			{END data_inizio_trattamento_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_inizio_trattamento_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="data_inizio_trattamento" {$tooltipAttr impegnative data_inizio_trattamento } >
+		<div class="text-muted" >
+		{$tooltip impegnative data_inizio_trattamento }		</div>
+	</div>
+	</div>
+
+
+{END data_inizio_trattamento_fieldblock}
+											
+{BEGIN data_dimissione_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_dimissione}  r-vertical-field" 
+	data-signal-error-for="data_dimissione{$id}" {$required_attr_data_dimissione}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field22" {$item_integrated_edit_field22}="" data-pageid="{$pageid}" data-field="data_dimissione" data-fieldname="data_dimissione" >
+
+	<label class="r-edit-label control-label {$data_dimissione_label_class}" for="{$labelfor_data_dimissione}">
+		{BEGIN data_dimissione_label}
+			{$data_dimissione_forward_control}
+			{$label impegnative data_dimissione }			{END data_dimissione_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_dimissione_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="data_dimissione" {$tooltipAttr impegnative data_dimissione } >
+		<div class="text-muted" >
+		{$tooltip impegnative data_dimissione }		</div>
+	</div>
+	</div>
+
+
+{END data_dimissione_fieldblock}
+											
+{BEGIN terapista_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_terapista}  r-vertical-field" 
+	data-signal-error-for="terapista{$id}" {$required_attr_terapista}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field23" {$item_integrated_edit_field23}="" data-pageid="{$pageid}" data-field="terapista" data-fieldname="terapista" >
+
+	<label class="r-edit-label control-label {$terapista_label_class}" for="{$labelfor_terapista}">
+		{BEGIN terapista_label}
+			{$terapista_forward_control}
+			{$label impegnative terapista }			{END terapista_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$terapista_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="terapista" {$tooltipAttr impegnative terapista } >
+		<div class="text-muted" >
+		{$tooltip impegnative terapista }		</div>
+	</div>
+	</div>
+
+
+{END terapista_fieldblock}
+											
+{BEGIN data_sospensione_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_sospensione}  r-vertical-field" 
+	data-signal-error-for="data_sospensione{$id}" {$required_attr_data_sospensione}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field24" {$item_integrated_edit_field24}="" data-pageid="{$pageid}" data-field="data_sospensione" data-fieldname="data_sospensione" >
+
+	<label class="r-edit-label control-label {$data_sospensione_label_class}" for="{$labelfor_data_sospensione}">
+		{BEGIN data_sospensione_label}
+			{$data_sospensione_forward_control}
+			{$label impegnative data_sospensione }			{END data_sospensione_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_sospensione_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="data_sospensione" {$tooltipAttr impegnative data_sospensione } >
+		<div class="text-muted" >
+		{$tooltip impegnative data_sospensione }		</div>
+	</div>
+	</div>
+
+
+{END data_sospensione_fieldblock}
+											
+{BEGIN data_riattivazione_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_riattivazione}  r-vertical-field" 
+	data-signal-error-for="data_riattivazione{$id}" {$required_attr_data_riattivazione}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field25" {$item_integrated_edit_field25}="" data-pageid="{$pageid}" data-field="data_riattivazione" data-fieldname="data_riattivazione" >
+
+	<label class="r-edit-label control-label {$data_riattivazione_label_class}" for="{$labelfor_data_riattivazione}">
+		{BEGIN data_riattivazione_label}
+			{$data_riattivazione_forward_control}
+			{$label impegnative data_riattivazione }			{END data_riattivazione_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_riattivazione_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="data_riattivazione" {$tooltipAttr impegnative data_riattivazione } >
+		<div class="text-muted" >
+		{$tooltip impegnative data_riattivazione }		</div>
+	</div>
+	</div>
+
+
+{END data_riattivazione_fieldblock}
+											
+{BEGIN motivo_sospensione_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_motivo_sospensione}  r-vertical-field" 
+	data-signal-error-for="motivo_sospensione{$id}" {$required_attr_motivo_sospensione}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field26" {$item_integrated_edit_field26}="" data-pageid="{$pageid}" data-field="motivo_sospensione" data-fieldname="motivo_sospensione" >
+
+	<label class="r-edit-label control-label {$motivo_sospensione_label_class}" for="{$labelfor_motivo_sospensione}">
+		{BEGIN motivo_sospensione_label}
+			{$motivo_sospensione_forward_control}
+			{$label impegnative motivo_sospensione }			{END motivo_sospensione_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$motivo_sospensione_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="motivo_sospensione" {$tooltipAttr impegnative motivo_sospensione } >
+		<div class="text-muted" >
+		{$tooltip impegnative motivo_sospensione }		</div>
+	</div>
+	</div>
+
+
+{END motivo_sospensione_fieldblock}
+											
+{BEGIN note_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_note}  r-vertical-field" 
+	data-signal-error-for="note{$id}" {$required_attr_note}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field27" {$item_integrated_edit_field27}="" data-pageid="{$pageid}" data-field="note" data-fieldname="note" >
+
+	<label class="r-edit-label control-label {$note_label_class}" for="{$labelfor_note}">
+		{BEGIN note_label}
+			{$note_forward_control}
+			{$label impegnative note }			{END note_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$note_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="note" {$tooltipAttr impegnative note } >
+		<div class="text-muted" >
+		{$tooltip impegnative note }		</div>
+	</div>
+	</div>
+
+
+{END note_fieldblock}
+											
+{BEGIN valutazione_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_valutazione}  r-vertical-field" 
+	data-signal-error-for="valutazione{$id}" {$required_attr_valutazione}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field28" {$item_integrated_edit_field28}="" data-pageid="{$pageid}" data-field="valutazione" data-fieldname="valutazione" >
+
+	<label class="r-edit-label control-label {$valutazione_label_class}" for="{$labelfor_valutazione}">
+		{BEGIN valutazione_label}
+			{$valutazione_forward_control}
+			{$label impegnative valutazione }			{END valutazione_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$valutazione_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="valutazione" {$tooltipAttr impegnative valutazione } >
+		<div class="text-muted" >
+		{$tooltip impegnative valutazione }		</div>
+	</div>
+	</div>
+
+
+{END valutazione_fieldblock}
+											
+{BEGIN trattamento1_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_trattamento1}  r-vertical-field" 
+	data-signal-error-for="trattamento1{$id}" {$required_attr_trattamento1}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field29" {$item_integrated_edit_field29}="" data-pageid="{$pageid}" data-field="trattamento1" data-fieldname="trattamento1" >
+
+	<label class="r-edit-label control-label {$trattamento1_label_class}" for="{$labelfor_trattamento1}">
+		{BEGIN trattamento1_label}
+			{$trattamento1_forward_control}
+			{$label impegnative trattamento1 }			{END trattamento1_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$trattamento1_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="trattamento1" {$tooltipAttr impegnative trattamento1 } >
+		<div class="text-muted" >
+		{$tooltip impegnative trattamento1 }		</div>
+	</div>
+	</div>
+
+
+{END trattamento1_fieldblock}
+											
+{BEGIN diagnosi_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_diagnosi}  r-vertical-field" 
+	data-signal-error-for="diagnosi{$id}" {$required_attr_diagnosi}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field30" {$item_integrated_edit_field30}="" data-pageid="{$pageid}" data-field="diagnosi" data-fieldname="diagnosi" >
+
+	<label class="r-edit-label control-label {$diagnosi_label_class}" for="{$labelfor_diagnosi}">
+		{BEGIN diagnosi_label}
+			{$diagnosi_forward_control}
+			{$label impegnative diagnosi }			{END diagnosi_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$diagnosi_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="diagnosi" {$tooltipAttr impegnative diagnosi } >
+		<div class="text-muted" >
+		{$tooltip impegnative diagnosi }		</div>
+	</div>
+	</div>
+
+
+{END diagnosi_fieldblock}
+											
+{BEGIN medico_interno_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_medico_interno}  r-vertical-field" 
+	data-signal-error-for="medico_interno{$id}" {$required_attr_medico_interno}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field31" {$item_integrated_edit_field31}="" data-pageid="{$pageid}" data-field="medico_interno" data-fieldname="medico_interno" >
+
+	<label class="r-edit-label control-label {$medico_interno_label_class}" for="{$labelfor_medico_interno}">
+		{BEGIN medico_interno_label}
+			{$medico_interno_forward_control}
+			{$label impegnative medico_interno }			{END medico_interno_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$medico_interno_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="medico_interno" {$tooltipAttr impegnative medico_interno } >
+		<div class="text-muted" >
+		{$tooltip impegnative medico_interno }		</div>
+	</div>
+	</div>
+
+
+{END medico_interno_fieldblock}
+											
+{BEGIN visita_urgente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_visita_urgente}  r-vertical-field" 
+	data-signal-error-for="visita_urgente{$id}" {$required_attr_visita_urgente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field32" {$item_integrated_edit_field32}="" data-pageid="{$pageid}" data-field="visita_urgente" data-fieldname="visita_urgente" >
+
+	<label class="r-edit-label control-label {$visita_urgente_label_class}" for="{$labelfor_visita_urgente}">
+		{BEGIN visita_urgente_label}
+			{$visita_urgente_forward_control}
+			{$label impegnative visita_urgente }			{END visita_urgente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$visita_urgente_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="visita_urgente" {$tooltipAttr impegnative visita_urgente } >
+		<div class="text-muted" >
+		{$tooltip impegnative visita_urgente }		</div>
+	</div>
+	</div>
+
+
+{END visita_urgente_fieldblock}
+											
+{BEGIN indirizzo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_indirizzo}  r-vertical-field" 
+	data-signal-error-for="indirizzo{$id}" {$required_attr_indirizzo}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field33" {$item_integrated_edit_field33}="" data-pageid="{$pageid}" data-field="indirizzo" data-fieldname="indirizzo" >
+
+	<label class="r-edit-label control-label {$indirizzo_label_class}" for="{$labelfor_indirizzo}">
+		{BEGIN indirizzo_label}
+			{$indirizzo_forward_control}
+			{$label impegnative indirizzo }			{END indirizzo_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$indirizzo_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="indirizzo" {$tooltipAttr impegnative indirizzo } >
+		<div class="text-muted" >
+		{$tooltip impegnative indirizzo }		</div>
+	</div>
+	</div>
+
+
+{END indirizzo_fieldblock}
+											
+{BEGIN paziente_asa_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_paziente_asa}  r-vertical-field" 
+	data-signal-error-for="paziente_asa{$id}" {$required_attr_paziente_asa}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field34" {$item_integrated_edit_field34}="" data-pageid="{$pageid}" data-field="paziente_asa" data-fieldname="paziente_asa" >
+
+	<label class="r-edit-label control-label {$paziente_asa_label_class}" for="{$labelfor_paziente_asa}">
+		{BEGIN paziente_asa_label}
+			{$paziente_asa_forward_control}
+			{$label impegnative paziente_asa }			{END paziente_asa_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$paziente_asa_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="paziente_asa" {$tooltipAttr impegnative paziente_asa } >
+		<div class="text-muted" >
+		{$tooltip impegnative paziente_asa }		</div>
+	</div>
+	</div>
+
+
+{END paziente_asa_fieldblock}
+											
+{BEGIN ptda_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ptda}  r-vertical-field" 
+	data-signal-error-for="ptda{$id}" {$required_attr_ptda}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field35" {$item_integrated_edit_field35}="" data-pageid="{$pageid}" data-field="ptda" data-fieldname="ptda" >
+
+	<label class="r-edit-label control-label {$ptda_label_class}" for="{$labelfor_ptda}">
+		{BEGIN ptda_label}
+			{$ptda_forward_control}
+			{$label impegnative ptda }			{END ptda_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$ptda_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="ptda" {$tooltipAttr impegnative ptda } >
+		<div class="text-muted" >
+		{$tooltip impegnative ptda }		</div>
+	</div>
+	</div>
+
+
+{END ptda_fieldblock}
+											
+{BEGIN data_segnalazione_pdta_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_segnalazione_pdta}  r-vertical-field" 
+	data-signal-error-for="data_segnalazione_pdta{$id}" {$required_attr_data_segnalazione_pdta}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field36" {$item_integrated_edit_field36}="" data-pageid="{$pageid}" data-field="data_segnalazione_pdta" data-fieldname="data_segnalazione_pdta" >
+
+	<label class="r-edit-label control-label {$data_segnalazione_pdta_label_class}" for="{$labelfor_data_segnalazione_pdta}">
+		{BEGIN data_segnalazione_pdta_label}
+			{$data_segnalazione_pdta_forward_control}
+			{$label impegnative data_segnalazione_pdta }			{END data_segnalazione_pdta_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_segnalazione_pdta_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="data_segnalazione_pdta" {$tooltipAttr impegnative data_segnalazione_pdta } >
+		<div class="text-muted" >
+		{$tooltip impegnative data_segnalazione_pdta }		</div>
+	</div>
+	</div>
+
+
+{END data_segnalazione_pdta_fieldblock}
+											
+{BEGIN luogo_di_nascita_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_luogo_di_nascita}  r-vertical-field" 
+	data-signal-error-for="luogo_di_nascita{$id}" {$required_attr_luogo_di_nascita}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field37" {$item_integrated_edit_field37}="" data-pageid="{$pageid}" data-field="luogo_di_nascita" data-fieldname="luogo_di_nascita" >
+
+	<label class="r-edit-label control-label {$luogo_di_nascita_label_class}" for="{$labelfor_luogo_di_nascita}">
+		{BEGIN luogo_di_nascita_label}
+			{$luogo_di_nascita_forward_control}
+			{$label impegnative luogo_di_nascita }			{END luogo_di_nascita_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$luogo_di_nascita_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="luogo_di_nascita" {$tooltipAttr impegnative luogo_di_nascita } >
+		<div class="text-muted" >
+		{$tooltip impegnative luogo_di_nascita }		</div>
+	</div>
+	</div>
+
+
+{END luogo_di_nascita_fieldblock}
+											
+{BEGIN localita_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_localita}  r-vertical-field" 
+	data-signal-error-for="localita{$id}" {$required_attr_localita}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field38" {$item_integrated_edit_field38}="" data-pageid="{$pageid}" data-field="localita" data-fieldname="localita" >
+
+	<label class="r-edit-label control-label {$localita_label_class}" for="{$labelfor_localita}">
+		{BEGIN localita_label}
+			{$localita_forward_control}
+			{$label impegnative localita }			{END localita_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$localita_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="localita" {$tooltipAttr impegnative localita } >
+		<div class="text-muted" >
+		{$tooltip impegnative localita }		</div>
+	</div>
+	</div>
+
+
+{END localita_fieldblock}
+											
+{BEGIN nro_telefono_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_nro_telefono}  r-vertical-field" 
+	data-signal-error-for="nro_telefono{$id}" {$required_attr_nro_telefono}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field39" {$item_integrated_edit_field39}="" data-pageid="{$pageid}" data-field="nro_telefono" data-fieldname="nro_telefono" >
+
+	<label class="r-edit-label control-label {$nro_telefono_label_class}" for="{$labelfor_nro_telefono}">
+		{BEGIN nro_telefono_label}
+			{$nro_telefono_forward_control}
+			{$label impegnative nro_telefono }			{END nro_telefono_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$nro_telefono_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="nro_telefono" {$tooltipAttr impegnative nro_telefono } >
+		<div class="text-muted" >
+		{$tooltip impegnative nro_telefono }		</div>
+	</div>
+	</div>
+
+
+{END nro_telefono_fieldblock}
+											
+{BEGIN ultima_modifica_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ultima_modifica}  r-vertical-field" 
+	data-signal-error-for="ultima_modifica{$id}" {$required_attr_ultima_modifica}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field44" {$item_integrated_edit_field44}="" data-pageid="{$pageid}" data-field="ultima_modifica" data-fieldname="ultima_modifica" >
+
+	<label class="r-edit-label control-label {$ultima_modifica_label_class}" for="{$labelfor_ultima_modifica}">
+		{BEGIN ultima_modifica_label}
+			{$ultima_modifica_forward_control}
+			{$label impegnative ultima_modifica }			{END ultima_modifica_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$ultima_modifica_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="ultima_modifica" {$tooltipAttr impegnative ultima_modifica } >
+		<div class="text-muted" >
+		{$tooltip impegnative ultima_modifica }		</div>
+	</div>
+	</div>
+
+
+{END ultima_modifica_fieldblock}
+											
+{BEGIN escludi_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_escludi}  r-vertical-field" 
+	data-signal-error-for="escludi{$id}" {$required_attr_escludi}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field45" {$item_integrated_edit_field45}="" data-pageid="{$pageid}" data-field="escludi" data-fieldname="escludi" >
+
+	<label class="r-edit-label control-label {$escludi_label_class}" for="{$labelfor_escludi}">
+		{BEGIN escludi_label}
+			{$escludi_forward_control}
+			{$label impegnative escludi }			{END escludi_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$escludi_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="escludi" {$tooltipAttr impegnative escludi } >
+		<div class="text-muted" >
+		{$tooltip impegnative escludi }		</div>
+	</div>
+	</div>
+
+
+{END escludi_fieldblock}
+											
+{BEGIN dimissione_ospedaliera_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_dimissione_ospedaliera}  r-vertical-field" 
+	data-signal-error-for="dimissione_ospedaliera{$id}" {$required_attr_dimissione_ospedaliera}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field46" {$item_integrated_edit_field46}="" data-pageid="{$pageid}" data-field="dimissione_ospedaliera" data-fieldname="dimissione_ospedaliera" >
+
+	<label class="r-edit-label control-label {$dimissione_ospedaliera_label_class}" for="{$labelfor_dimissione_ospedaliera}">
+		{BEGIN dimissione_ospedaliera_label}
+			{$dimissione_ospedaliera_forward_control}
+			{$label impegnative dimissione_ospedaliera }			{END dimissione_ospedaliera_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$dimissione_ospedaliera_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="dimissione_ospedaliera" {$tooltipAttr impegnative dimissione_ospedaliera } >
+		<div class="text-muted" >
+		{$tooltip impegnative dimissione_ospedaliera }		</div>
+	</div>
+	</div>
+
+
+{END dimissione_ospedaliera_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}" data-page="impegnative_edit"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN save_edit}
+<span data-itemtype="edit_save" data-itemid="edit_save" {$item_edit_save}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							{mlang_message SAVE}			</a>
+</span>
+{END save_edit}
+	 
+		{BEGIN back_button}
+<span data-itemtype="edit_back_list" data-itemid="edit_back_list" {$item_edit_back_list}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							{mlang_message BACK_TO_LIST}			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="edit_close" data-itemid="edit_close" {$item_edit_close}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$closebutton_attrs} >
+							{mlang_message CANCEL}			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+										<span class="glyphicon glyphicon-menu-hamburger"></span>
+												<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN reset_button}
+	<li data-itemtype="edit_reset" data-itemid="edit_reset" {$item_edit_reset}="" data-pageid="{$pageid}" data-small="" >
+				<a  {$resetbutton_attrs}  title="" >
+				
+		{mlang_message RESET}		
+		</a>
+	</li>
+{END reset_button}
+							{BEGIN view_page_button}
+	<li data-itemtype="edit_view" data-itemid="edit_view" {$item_edit_view}="" data-pageid="{$pageid}" data-small="" >
+				<a  href="impegnative_view.php?{$editlink}" {$view_page_button_attrs}  title="" >
+				
+		{mlang_message VIEW}		
+		</a>
+	</li>
+{END view_page_button}
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

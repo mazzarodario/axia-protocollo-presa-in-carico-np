@@ -1,0 +1,25 @@
+[data-page="_global_menu"][data-itemid="welcome_item1"] .r-w-icon {
+  background-color: #9acd3240;
+  color: light-dark(#628a0f, #b2e151);
+}
+[data-page="_global_menu"][data-itemid="welcome_item1"] .r-w-item:hover .r-w-icon {
+  background-color: #9acd32;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="welcome_item"] .r-w-icon {
+  font-weight: bold;
+  font-size: 24px;
+}
+[data-page="_global_menu"][data-itemid="welcome_item3"] .r-w-icon {
+  background-color: #e8926f40;
+  color: light-dark(#e84a09, #f5b195);
+}
+[data-page="_global_menu"][data-itemid="welcome_item3"] .r-w-item:hover .r-w-icon {
+  background-color: #e8926f;
+  color: white;
+}
+[data-page="_global_menu"][data-itemid="page_image_ash8f23hr"] {
+  width: 400px;
+}
+
+

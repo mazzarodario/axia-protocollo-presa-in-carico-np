@@ -1,0 +1,478 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+						<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		{BEGIN styleCSSFiles}
+<link REL="stylesheet" href="{$stylepath}" type="text/css">
+{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}" data-page="scheda_firma_privato_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="view_header" data-itemid="view_header" {$item_view_header}="" data-pageid="{$pageid}" >{$pagetitlelabel scheda_firma_privato view}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}" data-page="scheda_firma_privato_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" data-page="scheda_firma_privato_view" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN id_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id}  r-vertical-field" 
+	data-signal-error-for="id{$id}" {$required_attr_id}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field}="" data-pageid="{$pageid}" data-field="id" data-fieldname="id" >
+
+	<label class="r-edit-label control-label {$id_label_class}" for="{$labelfor_id}">
+		{BEGIN id_label}
+			{$id_forward_control}
+			{$label scheda_firma_privato id }			{END id_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$id_value}	</div>
+	</div>
+
+
+{END id_fieldblock}
+											
+{BEGIN progressivo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_progressivo}  r-vertical-field" 
+	data-signal-error-for="progressivo{$id}" {$required_attr_progressivo}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1}="" data-pageid="{$pageid}" data-field="progressivo" data-fieldname="progressivo" >
+
+	<label class="r-edit-label control-label {$progressivo_label_class}" for="{$labelfor_progressivo}">
+		{BEGIN progressivo_label}
+			{$progressivo_forward_control}
+			{$label scheda_firma_privato progressivo }			{END progressivo_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$progressivo_value}	</div>
+	</div>
+
+
+{END progressivo_fieldblock}
+											
+{BEGIN id_impegnativa_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_impegnativa}  r-vertical-field" 
+	data-signal-error-for="id_impegnativa{$id}" {$required_attr_id_impegnativa}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2}="" data-pageid="{$pageid}" data-field="id_impegnativa" data-fieldname="id_impegnativa" >
+
+	<label class="r-edit-label control-label {$id_impegnativa_label_class}" for="{$labelfor_id_impegnativa}">
+		{BEGIN id_impegnativa_label}
+			{$id_impegnativa_forward_control}
+			{$label scheda_firma_privato id_impegnativa }			{END id_impegnativa_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$id_impegnativa_value}	</div>
+	</div>
+
+
+{END id_impegnativa_fieldblock}
+											
+{BEGIN cognome_e_nome_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cognome_e_nome}  r-vertical-field" 
+	data-signal-error-for="cognome_e_nome{$id}" {$required_attr_cognome_e_nome}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3}="" data-pageid="{$pageid}" data-field="cognome_e_nome" data-fieldname="cognome_e_nome" >
+
+	<label class="r-edit-label control-label {$cognome_e_nome_label_class}" for="{$labelfor_cognome_e_nome}">
+		{BEGIN cognome_e_nome_label}
+			{$cognome_e_nome_forward_control}
+			{$label scheda_firma_privato cognome_e_nome }			{END cognome_e_nome_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cognome_e_nome_value}	</div>
+	</div>
+
+
+{END cognome_e_nome_fieldblock}
+											
+{BEGIN anno_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_anno}  r-vertical-field" 
+	data-signal-error-for="anno{$id}" {$required_attr_anno}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4}="" data-pageid="{$pageid}" data-field="anno" data-fieldname="anno" >
+
+	<label class="r-edit-label control-label {$anno_label_class}" for="{$labelfor_anno}">
+		{BEGIN anno_label}
+			{$anno_forward_control}
+			{$label scheda_firma_privato anno }			{END anno_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$anno_value}	</div>
+	</div>
+
+
+{END anno_fieldblock}
+											
+{BEGIN et__evolutiva_o_adulto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_et__evolutiva_o_adulto}  r-vertical-field" 
+	data-signal-error-for="et__evolutiva_o_adulto{$id}" {$required_attr_et__evolutiva_o_adulto}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5}="" data-pageid="{$pageid}" data-field="et__evolutiva_o_adulto" data-fieldname="et__evolutiva_o_adulto" >
+
+	<label class="r-edit-label control-label {$et__evolutiva_o_adulto_label_class}" for="{$labelfor_et__evolutiva_o_adulto}">
+		{BEGIN et__evolutiva_o_adulto_label}
+			{$et__evolutiva_o_adulto_forward_control}
+			{$label scheda_firma_privato et__evolutiva_o_adulto }			{END et__evolutiva_o_adulto_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$et__evolutiva_o_adulto_value}	</div>
+	</div>
+
+
+{END et__evolutiva_o_adulto_fieldblock}
+											
+{BEGIN settore_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_settore}  r-vertical-field" 
+	data-signal-error-for="settore{$id}" {$required_attr_settore}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6}="" data-pageid="{$pageid}" data-field="settore" data-fieldname="settore" >
+
+	<label class="r-edit-label control-label {$settore_label_class}" for="{$labelfor_settore}">
+		{BEGIN settore_label}
+			{$settore_forward_control}
+			{$label scheda_firma_privato settore }			{END settore_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$settore_value}	</div>
+	</div>
+
+
+{END settore_fieldblock}
+											
+{BEGIN sigla_cliente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sigla_cliente}  r-vertical-field" 
+	data-signal-error-for="sigla_cliente{$id}" {$required_attr_sigla_cliente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7}="" data-pageid="{$pageid}" data-field="sigla_cliente" data-fieldname="sigla_cliente" >
+
+	<label class="r-edit-label control-label {$sigla_cliente_label_class}" for="{$labelfor_sigla_cliente}">
+		{BEGIN sigla_cliente_label}
+			{$sigla_cliente_forward_control}
+			{$label scheda_firma_privato sigla_cliente }			{END sigla_cliente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$sigla_cliente_value}	</div>
+	</div>
+
+
+{END sigla_cliente_fieldblock}
+											
+{BEGIN privato_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_privato}  r-vertical-field" 
+	data-signal-error-for="privato{$id}" {$required_attr_privato}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8}="" data-pageid="{$pageid}" data-field="privato" data-fieldname="privato" >
+
+	<label class="r-edit-label control-label {$privato_label_class}" for="{$labelfor_privato}">
+		{BEGIN privato_label}
+			{$privato_forward_control}
+			{$label scheda_firma_privato privato }			{END privato_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$privato_value}	</div>
+	</div>
+
+
+{END privato_fieldblock}
+											
+{BEGIN data_imp_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_imp}  r-vertical-field" 
+	data-signal-error-for="data_imp{$id}" {$required_attr_data_imp}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9}="" data-pageid="{$pageid}" data-field="data_imp" data-fieldname="data_imp" >
+
+	<label class="r-edit-label control-label {$data_imp_label_class}" for="{$labelfor_data_imp}">
+		{BEGIN data_imp_label}
+			{$data_imp_forward_control}
+			{$label scheda_firma_privato data_imp }			{END data_imp_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_imp_value}	</div>
+	</div>
+
+
+{END data_imp_fieldblock}
+											
+{BEGIN data_firma_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_firma}  r-vertical-field" 
+	data-signal-error-for="data_firma{$id}" {$required_attr_data_firma}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10}="" data-pageid="{$pageid}" data-field="data_firma" data-fieldname="data_firma" >
+
+	<label class="r-edit-label control-label {$data_firma_label_class}" for="{$labelfor_data_firma}">
+		{BEGIN data_firma_label}
+			{$data_firma_forward_control}
+			{$label scheda_firma_privato data_firma }			{END data_firma_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_firma_value}	</div>
+	</div>
+
+
+{END data_firma_fieldblock}
+											
+{BEGIN firma_paziente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_firma_paziente}  r-vertical-field" 
+	data-signal-error-for="firma_paziente{$id}" {$required_attr_firma_paziente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field11" {$item_integrated_edit_field11}="" data-pageid="{$pageid}" data-field="firma_paziente" data-fieldname="firma_paziente" >
+
+	<label class="r-edit-label control-label {$firma_paziente_label_class}" for="{$labelfor_firma_paziente}">
+		{BEGIN firma_paziente_label}
+			{$firma_paziente_forward_control}
+			{$label scheda_firma_privato firma_paziente }			{END firma_paziente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$firma_paziente_value}	</div>
+	</div>
+
+
+{END firma_paziente_fieldblock}
+											
+{BEGIN idprodotto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_idprodotto}  r-vertical-field" 
+	data-signal-error-for="idprodotto{$id}" {$required_attr_idprodotto}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field12" {$item_integrated_edit_field12}="" data-pageid="{$pageid}" data-field="idprodotto" data-fieldname="idprodotto" >
+
+	<label class="r-edit-label control-label {$idprodotto_label_class}" for="{$labelfor_idprodotto}">
+		{BEGIN idprodotto_label}
+			{$idprodotto_forward_control}
+			{$label scheda_firma_privato idprodotto }			{END idprodotto_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$idprodotto_value}	</div>
+	</div>
+
+
+{END idprodotto_fieldblock}
+											
+{BEGIN quantita_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_quantita}  r-vertical-field" 
+	data-signal-error-for="quantita{$id}" {$required_attr_quantita}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field13" {$item_integrated_edit_field13}="" data-pageid="{$pageid}" data-field="quantita" data-fieldname="quantita" >
+
+	<label class="r-edit-label control-label {$quantita_label_class}" for="{$labelfor_quantita}">
+		{BEGIN quantita_label}
+			{$quantita_forward_control}
+			{$label scheda_firma_privato quantita }			{END quantita_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$quantita_value}	</div>
+	</div>
+
+
+{END quantita_fieldblock}
+											
+{BEGIN terapista_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_terapista}  r-vertical-field" 
+	data-signal-error-for="terapista{$id}" {$required_attr_terapista}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field14" {$item_integrated_edit_field14}="" data-pageid="{$pageid}" data-field="terapista" data-fieldname="terapista" >
+
+	<label class="r-edit-label control-label {$terapista_label_class}" for="{$labelfor_terapista}">
+		{BEGIN terapista_label}
+			{$terapista_forward_control}
+			{$label scheda_firma_privato terapista }			{END terapista_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$terapista_value}	</div>
+	</div>
+
+
+{END terapista_fieldblock}
+											
+{BEGIN concluso_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_concluso}  r-vertical-field" 
+	data-signal-error-for="concluso{$id}" {$required_attr_concluso}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15}="" data-pageid="{$pageid}" data-field="concluso" data-fieldname="concluso" >
+
+	<label class="r-edit-label control-label {$concluso_label_class}" for="{$labelfor_concluso}">
+		{BEGIN concluso_label}
+			{$concluso_forward_control}
+			{$label scheda_firma_privato concluso }			{END concluso_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$concluso_value}	</div>
+	</div>
+
+
+{END concluso_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}" data-page="scheda_firma_privato_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN back_button}
+<span data-itemtype="view_back_list" data-itemid="view_back_list" {$item_view_back_list}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							{mlang_message BACK_TO_LIST}			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="view_close" data-itemid="view_close" {$item_view_close}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" href="#" {$closebutton_attrs} >
+							{mlang_message CLOSE_WINDOW}			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+										<span class="glyphicon glyphicon-menu-hamburger"></span>
+												<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN edit_page_button}
+	<li data-itemtype="view_edit" data-itemid="view_edit" {$item_view_edit}="" data-pageid="{$pageid}" data-small="" >
+				<a  href="scheda_firma_privato_edit.php?{$editlink}" {$edit_page_button_attrs}  title="" >
+				
+		{mlang_message EDIT}		
+		</a>
+	</li>
+{END edit_page_button}
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

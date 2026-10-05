@@ -1,0 +1,738 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+						<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		{BEGIN styleCSSFiles}
+<link REL="stylesheet" href="{$stylepath}" type="text/css">
+{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}" data-page="anagrafe_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="view_header" data-itemid="view_header" {$item_view_header}="" data-pageid="{$pageid}" >{$pagetitlelabel anagrafe view}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}" data-page="anagrafe_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" data-page="anagrafe_view" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN id_utente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_utente}  r-vertical-field" 
+	data-signal-error-for="id_utente{$id}" {$required_attr_id_utente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field}="" data-pageid="{$pageid}" data-field="id_utente" data-fieldname="id_utente" >
+
+	<label class="r-edit-label control-label {$id_utente_label_class}" for="{$labelfor_id_utente}">
+		{BEGIN id_utente_label}
+			{$id_utente_forward_control}
+			{$label anagrafe id_utente }			{END id_utente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$id_utente_value}	</div>
+	</div>
+
+
+{END id_utente_fieldblock}
+											
+{BEGIN cognome_e_nome_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cognome_e_nome}  r-vertical-field" 
+	data-signal-error-for="cognome_e_nome{$id}" {$required_attr_cognome_e_nome}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1}="" data-pageid="{$pageid}" data-field="cognome_e_nome" data-fieldname="cognome_e_nome" >
+
+	<label class="r-edit-label control-label {$cognome_e_nome_label_class}" for="{$labelfor_cognome_e_nome}">
+		{BEGIN cognome_e_nome_label}
+			{$cognome_e_nome_forward_control}
+			{$label anagrafe cognome_e_nome }			{END cognome_e_nome_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$cognome_e_nome_value}	</div>
+	</div>
+
+
+{END cognome_e_nome_fieldblock}
+											
+{BEGIN privato_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_privato}  r-vertical-field" 
+	data-signal-error-for="privato{$id}" {$required_attr_privato}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2}="" data-pageid="{$pageid}" data-field="privato" data-fieldname="privato" >
+
+	<label class="r-edit-label control-label {$privato_label_class}" for="{$labelfor_privato}">
+		{BEGIN privato_label}
+			{$privato_forward_control}
+			{$label anagrafe privato }			{END privato_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$privato_value}	</div>
+	</div>
+
+
+{END privato_fieldblock}
+											
+{BEGIN data_di_nascita_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_di_nascita}  r-vertical-field" 
+	data-signal-error-for="data_di_nascita{$id}" {$required_attr_data_di_nascita}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3}="" data-pageid="{$pageid}" data-field="data_di_nascita" data-fieldname="data_di_nascita" >
+
+	<label class="r-edit-label control-label {$data_di_nascita_label_class}" for="{$labelfor_data_di_nascita}">
+		{BEGIN data_di_nascita_label}
+			{$data_di_nascita_forward_control}
+			{$label anagrafe data_di_nascita }			{END data_di_nascita_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_di_nascita_value}	</div>
+	</div>
+
+
+{END data_di_nascita_fieldblock}
+											
+{BEGIN sesso_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sesso}  r-vertical-field" 
+	data-signal-error-for="sesso{$id}" {$required_attr_sesso}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4}="" data-pageid="{$pageid}" data-field="sesso" data-fieldname="sesso" >
+
+	<label class="r-edit-label control-label {$sesso_label_class}" for="{$labelfor_sesso}">
+		{BEGIN sesso_label}
+			{$sesso_forward_control}
+			{$label anagrafe sesso }			{END sesso_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$sesso_value}	</div>
+	</div>
+
+
+{END sesso_fieldblock}
+											
+{BEGIN settore_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_settore}  r-vertical-field" 
+	data-signal-error-for="settore{$id}" {$required_attr_settore}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5}="" data-pageid="{$pageid}" data-field="settore" data-fieldname="settore" >
+
+	<label class="r-edit-label control-label {$settore_label_class}" for="{$labelfor_settore}">
+		{BEGIN settore_label}
+			{$settore_forward_control}
+			{$label anagrafe settore }			{END settore_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$settore_value}	</div>
+	</div>
+
+
+{END settore_fieldblock}
+											
+{BEGIN eta_evolutiva_o_adulta_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_eta_evolutiva_o_adulta}  r-vertical-field" 
+	data-signal-error-for="eta_evolutiva_o_adulta{$id}" {$required_attr_eta_evolutiva_o_adulta}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6}="" data-pageid="{$pageid}" data-field="eta_evolutiva_o_adulta" data-fieldname="eta_evolutiva_o_adulta" >
+
+	<label class="r-edit-label control-label {$eta_evolutiva_o_adulta_label_class}" for="{$labelfor_eta_evolutiva_o_adulta}">
+		{BEGIN eta_evolutiva_o_adulta_label}
+			{$eta_evolutiva_o_adulta_forward_control}
+			{$label anagrafe eta_evolutiva_o_adulta }			{END eta_evolutiva_o_adulta_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$eta_evolutiva_o_adulta_value}	</div>
+	</div>
+
+
+{END eta_evolutiva_o_adulta_fieldblock}
+											
+{BEGIN codice_fim_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_codice_fim}  r-vertical-field" 
+	data-signal-error-for="codice_fim{$id}" {$required_attr_codice_fim}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7}="" data-pageid="{$pageid}" data-field="codice_fim" data-fieldname="codice_fim" >
+
+	<label class="r-edit-label control-label {$codice_fim_label_class}" for="{$labelfor_codice_fim}">
+		{BEGIN codice_fim_label}
+			{$codice_fim_forward_control}
+			{$label anagrafe codice_fim }			{END codice_fim_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$codice_fim_value}	</div>
+	</div>
+
+
+{END codice_fim_fieldblock}
+											
+{BEGIN codice_patologia_np_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_codice_patologia_np}  r-vertical-field" 
+	data-signal-error-for="codice_patologia_np{$id}" {$required_attr_codice_patologia_np}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8}="" data-pageid="{$pageid}" data-field="codice_patologia_np" data-fieldname="codice_patologia_np" >
+
+	<label class="r-edit-label control-label {$codice_patologia_np_label_class}" for="{$labelfor_codice_patologia_np}">
+		{BEGIN codice_patologia_np_label}
+			{$codice_patologia_np_forward_control}
+			{$label anagrafe codice_patologia_np }			{END codice_patologia_np_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$codice_patologia_np_value}	</div>
+	</div>
+
+
+{END codice_patologia_np_fieldblock}
+											
+{BEGIN patologia_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_patologia}  r-vertical-field" 
+	data-signal-error-for="patologia{$id}" {$required_attr_patologia}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9}="" data-pageid="{$pageid}" data-field="patologia" data-fieldname="patologia" >
+
+	<label class="r-edit-label control-label {$patologia_label_class}" for="{$labelfor_patologia}">
+		{BEGIN patologia_label}
+			{$patologia_forward_control}
+			{$label anagrafe patologia }			{END patologia_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$patologia_value}	</div>
+	</div>
+
+
+{END patologia_fieldblock}
+											
+{BEGIN luogo_di_nascita_intestatario_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_luogo_di_nascita_intestatario}  r-vertical-field" 
+	data-signal-error-for="luogo_di_nascita_intestatario{$id}" {$required_attr_luogo_di_nascita_intestatario}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10}="" data-pageid="{$pageid}" data-field="luogo_di_nascita_intestatario" data-fieldname="luogo_di_nascita_intestatario" >
+
+	<label class="r-edit-label control-label {$luogo_di_nascita_intestatario_label_class}" for="{$labelfor_luogo_di_nascita_intestatario}">
+		{BEGIN luogo_di_nascita_intestatario_label}
+			{$luogo_di_nascita_intestatario_forward_control}
+			{$label anagrafe luogo_di_nascita_intestatario }			{END luogo_di_nascita_intestatario_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$luogo_di_nascita_intestatario_value}	</div>
+	</div>
+
+
+{END luogo_di_nascita_intestatario_fieldblock}
+											
+{BEGIN distretto_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_distretto}  r-vertical-field" 
+	data-signal-error-for="distretto{$id}" {$required_attr_distretto}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field11" {$item_integrated_edit_field11}="" data-pageid="{$pageid}" data-field="distretto" data-fieldname="distretto" >
+
+	<label class="r-edit-label control-label {$distretto_label_class}" for="{$labelfor_distretto}">
+		{BEGIN distretto_label}
+			{$distretto_forward_control}
+			{$label anagrafe distretto }			{END distretto_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$distretto_value}	</div>
+	</div>
+
+
+{END distretto_fieldblock}
+											
+{BEGIN indirizzo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_indirizzo}  r-vertical-field" 
+	data-signal-error-for="indirizzo{$id}" {$required_attr_indirizzo}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field12" {$item_integrated_edit_field12}="" data-pageid="{$pageid}" data-field="indirizzo" data-fieldname="indirizzo" >
+
+	<label class="r-edit-label control-label {$indirizzo_label_class}" for="{$labelfor_indirizzo}">
+		{BEGIN indirizzo_label}
+			{$indirizzo_forward_control}
+			{$label anagrafe indirizzo }			{END indirizzo_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$indirizzo_value}	</div>
+	</div>
+
+
+{END indirizzo_fieldblock}
+											
+{BEGIN nro_telefono_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_nro_telefono}  r-vertical-field" 
+	data-signal-error-for="nro_telefono{$id}" {$required_attr_nro_telefono}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field13" {$item_integrated_edit_field13}="" data-pageid="{$pageid}" data-field="nro_telefono" data-fieldname="nro_telefono" >
+
+	<label class="r-edit-label control-label {$nro_telefono_label_class}" for="{$labelfor_nro_telefono}">
+		{BEGIN nro_telefono_label}
+			{$nro_telefono_forward_control}
+			{$label anagrafe nro_telefono }			{END nro_telefono_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$nro_telefono_value}	</div>
+	</div>
+
+
+{END nro_telefono_fieldblock}
+											
+{BEGIN altri_recapiti_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_altri_recapiti}  r-vertical-field" 
+	data-signal-error-for="altri_recapiti{$id}" {$required_attr_altri_recapiti}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field14" {$item_integrated_edit_field14}="" data-pageid="{$pageid}" data-field="altri_recapiti" data-fieldname="altri_recapiti" >
+
+	<label class="r-edit-label control-label {$altri_recapiti_label_class}" for="{$labelfor_altri_recapiti}">
+		{BEGIN altri_recapiti_label}
+			{$altri_recapiti_forward_control}
+			{$label anagrafe altri_recapiti }			{END altri_recapiti_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$altri_recapiti_value}	</div>
+	</div>
+
+
+{END altri_recapiti_fieldblock}
+											
+{BEGIN localita_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_localita}  r-vertical-field" 
+	data-signal-error-for="localita{$id}" {$required_attr_localita}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15}="" data-pageid="{$pageid}" data-field="localita" data-fieldname="localita" >
+
+	<label class="r-edit-label control-label {$localita_label_class}" for="{$labelfor_localita}">
+		{BEGIN localita_label}
+			{$localita_forward_control}
+			{$label anagrafe localita }			{END localita_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$localita_value}	</div>
+	</div>
+
+
+{END localita_fieldblock}
+											
+{BEGIN codice_fiscale_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_codice_fiscale}  r-vertical-field" 
+	data-signal-error-for="codice_fiscale{$id}" {$required_attr_codice_fiscale}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field16" {$item_integrated_edit_field16}="" data-pageid="{$pageid}" data-field="codice_fiscale" data-fieldname="codice_fiscale" >
+
+	<label class="r-edit-label control-label {$codice_fiscale_label_class}" for="{$labelfor_codice_fiscale}">
+		{BEGIN codice_fiscale_label}
+			{$codice_fiscale_forward_control}
+			{$label anagrafe codice_fiscale }			{END codice_fiscale_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$codice_fiscale_value}	</div>
+	</div>
+
+
+{END codice_fiscale_fieldblock}
+											
+{BEGIN intestatario_fattura_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_intestatario_fattura}  r-vertical-field" 
+	data-signal-error-for="intestatario_fattura{$id}" {$required_attr_intestatario_fattura}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field17" {$item_integrated_edit_field17}="" data-pageid="{$pageid}" data-field="intestatario_fattura" data-fieldname="intestatario_fattura" >
+
+	<label class="r-edit-label control-label {$intestatario_fattura_label_class}" for="{$labelfor_intestatario_fattura}">
+		{BEGIN intestatario_fattura_label}
+			{$intestatario_fattura_forward_control}
+			{$label anagrafe intestatario_fattura }			{END intestatario_fattura_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$intestatario_fattura_value}	</div>
+	</div>
+
+
+{END intestatario_fattura_fieldblock}
+											
+{BEGIN luogo_di_nascita_paziente_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_luogo_di_nascita_paziente}  r-vertical-field" 
+	data-signal-error-for="luogo_di_nascita_paziente{$id}" {$required_attr_luogo_di_nascita_paziente}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field18" {$item_integrated_edit_field18}="" data-pageid="{$pageid}" data-field="luogo_di_nascita_paziente" data-fieldname="luogo_di_nascita_paziente" >
+
+	<label class="r-edit-label control-label {$luogo_di_nascita_paziente_label_class}" for="{$labelfor_luogo_di_nascita_paziente}">
+		{BEGIN luogo_di_nascita_paziente_label}
+			{$luogo_di_nascita_paziente_forward_control}
+			{$label anagrafe luogo_di_nascita_paziente }			{END luogo_di_nascita_paziente_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$luogo_di_nascita_paziente_value}	</div>
+	</div>
+
+
+{END luogo_di_nascita_paziente_fieldblock}
+											
+{BEGIN data_nascita_intestatario_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_data_nascita_intestatario}  r-vertical-field" 
+	data-signal-error-for="data_nascita_intestatario{$id}" {$required_attr_data_nascita_intestatario}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field19" {$item_integrated_edit_field19}="" data-pageid="{$pageid}" data-field="data_nascita_intestatario" data-fieldname="data_nascita_intestatario" >
+
+	<label class="r-edit-label control-label {$data_nascita_intestatario_label_class}" for="{$labelfor_data_nascita_intestatario}">
+		{BEGIN data_nascita_intestatario_label}
+			{$data_nascita_intestatario_forward_control}
+			{$label anagrafe data_nascita_intestatario }			{END data_nascita_intestatario_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$data_nascita_intestatario_value}	</div>
+	</div>
+
+
+{END data_nascita_intestatario_fieldblock}
+											
+{BEGIN indirizzo_int_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_indirizzo_int}  r-vertical-field" 
+	data-signal-error-for="indirizzo_int{$id}" {$required_attr_indirizzo_int}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field20" {$item_integrated_edit_field20}="" data-pageid="{$pageid}" data-field="indirizzo_int" data-fieldname="indirizzo_int" >
+
+	<label class="r-edit-label control-label {$indirizzo_int_label_class}" for="{$labelfor_indirizzo_int}">
+		{BEGIN indirizzo_int_label}
+			{$indirizzo_int_forward_control}
+			{$label anagrafe indirizzo_int }			{END indirizzo_int_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$indirizzo_int_value}	</div>
+	</div>
+
+
+{END indirizzo_int_fieldblock}
+											
+{BEGIN localita_int_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_localita_int}  r-vertical-field" 
+	data-signal-error-for="localita_int{$id}" {$required_attr_localita_int}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field21" {$item_integrated_edit_field21}="" data-pageid="{$pageid}" data-field="localita_int" data-fieldname="localita_int" >
+
+	<label class="r-edit-label control-label {$localita_int_label_class}" for="{$labelfor_localita_int}">
+		{BEGIN localita_int_label}
+			{$localita_int_forward_control}
+			{$label anagrafe localita_int }			{END localita_int_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$localita_int_value}	</div>
+	</div>
+
+
+{END localita_int_fieldblock}
+											
+{BEGIN telefono_int_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_telefono_int}  r-vertical-field" 
+	data-signal-error-for="telefono_int{$id}" {$required_attr_telefono_int}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field22" {$item_integrated_edit_field22}="" data-pageid="{$pageid}" data-field="telefono_int" data-fieldname="telefono_int" >
+
+	<label class="r-edit-label control-label {$telefono_int_label_class}" for="{$labelfor_telefono_int}">
+		{BEGIN telefono_int_label}
+			{$telefono_int_forward_control}
+			{$label anagrafe telefono_int }			{END telefono_int_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$telefono_int_value}	</div>
+	</div>
+
+
+{END telefono_int_fieldblock}
+											
+{BEGIN codice_fiscale_int_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_codice_fiscale_int}  r-vertical-field" 
+	data-signal-error-for="codice_fiscale_int{$id}" {$required_attr_codice_fiscale_int}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field23" {$item_integrated_edit_field23}="" data-pageid="{$pageid}" data-field="codice_fiscale_int" data-fieldname="codice_fiscale_int" >
+
+	<label class="r-edit-label control-label {$codice_fiscale_int_label_class}" for="{$labelfor_codice_fiscale_int}">
+		{BEGIN codice_fiscale_int_label}
+			{$codice_fiscale_int_forward_control}
+			{$label anagrafe codice_fiscale_int }			{END codice_fiscale_int_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$codice_fiscale_int_value}	</div>
+	</div>
+
+
+{END codice_fiscale_int_fieldblock}
+											
+{BEGIN e_mail_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_e_mail}  r-vertical-field" 
+	data-signal-error-for="e_mail{$id}" {$required_attr_e_mail}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field24" {$item_integrated_edit_field24}="" data-pageid="{$pageid}" data-field="e_mail" data-fieldname="e_mail" >
+
+	<label class="r-edit-label control-label {$e_mail_label_class}" for="{$labelfor_e_mail}">
+		{BEGIN e_mail_label}
+			{$e_mail_forward_control}
+			{$label anagrafe e_mail }			{END e_mail_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$e_mail_value}	</div>
+	</div>
+
+
+{END e_mail_fieldblock}
+											
+{BEGIN paziente_asa_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_paziente_asa}  r-vertical-field" 
+	data-signal-error-for="paziente_asa{$id}" {$required_attr_paziente_asa}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field25" {$item_integrated_edit_field25}="" data-pageid="{$pageid}" data-field="paziente_asa" data-fieldname="paziente_asa" >
+
+	<label class="r-edit-label control-label {$paziente_asa_label_class}" for="{$labelfor_paziente_asa}">
+		{BEGIN paziente_asa_label}
+			{$paziente_asa_forward_control}
+			{$label anagrafe paziente_asa }			{END paziente_asa_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$paziente_asa_value}	</div>
+	</div>
+
+
+{END paziente_asa_fieldblock}
+											
+{BEGIN anno_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_anno}  r-vertical-field" 
+	data-signal-error-for="anno{$id}" {$required_attr_anno}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field26" {$item_integrated_edit_field26}="" data-pageid="{$pageid}" data-field="anno" data-fieldname="anno" >
+
+	<label class="r-edit-label control-label {$anno_label_class}" for="{$labelfor_anno}">
+		{BEGIN anno_label}
+			{$anno_forward_control}
+			{$label anagrafe anno }			{END anno_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$anno_value}	</div>
+	</div>
+
+
+{END anno_fieldblock}
+											
+{BEGIN ultima_modifica_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ultima_modifica}  r-vertical-field" 
+	data-signal-error-for="ultima_modifica{$id}" {$required_attr_ultima_modifica}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field31" {$item_integrated_edit_field31}="" data-pageid="{$pageid}" data-field="ultima_modifica" data-fieldname="ultima_modifica" >
+
+	<label class="r-edit-label control-label {$ultima_modifica_label_class}" for="{$labelfor_ultima_modifica}">
+		{BEGIN ultima_modifica_label}
+			{$ultima_modifica_forward_control}
+			{$label anagrafe ultima_modifica }			{END ultima_modifica_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$ultima_modifica_value}	</div>
+	</div>
+
+
+{END ultima_modifica_fieldblock}
+											
+{BEGIN Operatore_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Operatore}  r-vertical-field" 
+	data-signal-error-for="Operatore{$id}" {$required_attr_Operatore}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field27" {$item_integrated_edit_field27}="" data-pageid="{$pageid}" data-field="Operatore" data-fieldname="Operatore" >
+
+	<label class="r-edit-label control-label {$Operatore_label_class}" for="{$labelfor_Operatore}">
+		{BEGIN Operatore_label}
+			{$Operatore_forward_control}
+			{$label anagrafe Operatore }			{END Operatore_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$Operatore_value}	</div>
+	</div>
+
+
+{END Operatore_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}" data-page="anagrafe_view"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN back_button}
+<span data-itemtype="view_back_list" data-itemid="view_back_list" {$item_view_back_list}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							{mlang_message BACK_TO_LIST}			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="view_close" data-itemid="view_close" {$item_view_close}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" href="#" {$closebutton_attrs} >
+							{mlang_message CLOSE_WINDOW}			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger}="" data-pageid="{$pageid}" data-small="" data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+										<span class="glyphicon glyphicon-menu-hamburger"></span>
+												<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN edit_page_button}
+	<li data-itemtype="view_edit" data-itemid="view_edit" {$item_view_edit}="" data-pageid="{$pageid}" data-small="" >
+				<a  href="anagrafe_edit.php?{$editlink}" {$edit_page_button_attrs}  title="" >
+				
+		{mlang_message EDIT}		
+		</a>
+	</li>
+{END edit_page_button}
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
